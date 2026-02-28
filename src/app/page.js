@@ -5,12 +5,12 @@ export default function Home() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-[#1C181C]">
       {/* Card */}
-      <main className="bg-[#1B1C22] border border-gray-600 rounded-2xl">
+      <main className="bg-[#1B1C22] border border-gray-600 rounded-2xl shadow-2xl shadow-[#FA8938]/9 p-8">
         {/* Esquerda */}
         <section>
           {/* Topo */}
           <div>
-            <h1>Calculadora IMC</h1>
+            <h1 className="text-3xl font-bold">Calculadora <strong className="text-orange-400">IMC</strong></h1>
             <p>Índice de Massa Corporal</p>
 
             <h2>0</h2>
