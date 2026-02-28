@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-[#1C181C]">
       {/* Card */}
-      <main>
+      <main className="bg-[#1B1C22] border border-gray-600 rounded-2xl">
         {/* Esquerda */}
         <section>
           {/* Topo */}
